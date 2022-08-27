@@ -1,0 +1,66 @@
+.navbar{
+    z-index: 10;
+    width: 100vmax;
+    height: 60px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.navbar-container-left{
+    float: left;
+    padding: 10px;
+    
+}
+
+.navbar-container-right{
+    float: right;
+    padding: 10px;
+    
+
+}
+
+.navbar .padding{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.navbar-container-left .triangle{
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.navbar-container-left .i{
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.navbar-container-left :hover .triangle{
+    stroke: #D92323;
+}
+
+.navbar-container-left :hover .i{
+    fill: #D92323;
+}
+
+.navbar #eye #lid{
+    animation: blink 7s infinite;
+
+}
+
+@keyframes blink{
+
+    15% {
+
+        transform: translateY(-25px) translateX(12.5px) scale(0.5, 0.5);
+    }
+
+    90% {
+
+        transform: translateY(-25px) translateX(12.5px) scale(0.5, 0.5);
+    }
+
+     
+
+}

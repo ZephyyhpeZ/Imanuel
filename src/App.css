@@ -1,0 +1,14 @@
+
+.App .content{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.App .barcode{
+    position: fixed;
+    margin-right: 0;
+    margin-left: 88vmax;
+    margin-top: 30vmax;
+    
+}
+

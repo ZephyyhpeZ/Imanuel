@@ -1,0 +1,23 @@
+.Introduction{
+    margin-left: 70px;
+    margin-top: 160px;
+    margin-bottom: 160px;
+    transition-timing-function: ease-in-out; 
+    transition-duration: 0.3s;
+    
+}
+
+.Introduction h1{
+    font-size: 100px;
+    margin: 0;
+    
+}
+
+.no-bold{
+   font-weight: normal;
+   
+}
+
+.Introduction h2{
+    margin-left: 5px;
+}

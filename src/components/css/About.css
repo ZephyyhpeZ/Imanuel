@@ -1,0 +1,54 @@
+.About{
+    margin-top: 400px;
+    margin-bottom: 160px;
+    padding-left: 180px;
+    display: flex;
+}
+
+.About .line-left{
+    position: absolute;
+    background-color: #262728;
+    margin-left: -160px;
+    margin-top: 45px;
+    width: 150px;
+    height: 2px;
+}
+
+.About .dot-outer{
+    position: absolute;
+    background-color: #FFD600;
+    margin-left: -193px;
+    margin-top: 31px;
+    width: 30px;
+    height: 30px;
+}
+
+.About .dot-inner{
+    position: absolute;
+    background-color: #262728;
+    margin-left: -183px;
+    margin-top: 41px;
+    width: 10px;
+    height: 10px;
+}
+
+
+.About .left{
+    text-align: justify;
+    width: 400px;
+}
+
+.About .left .title{
+    border-bottom: 3px solid;
+}
+
+.About .right{
+    width: 400px;
+}
+
+.About .right img{
+    padding-left: 70px;
+    padding-top: 50px;
+    width: 300px;
+}
+

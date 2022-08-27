@@ -1,0 +1,15 @@
+.BackCode{
+    position: absolute;
+    z-index: -1;
+    color: #DCE4EA;
+    margin-left: 300px;
+    transition-timing-function: ease-in-out; 
+    transition-duration: 0.3s;
+}
+
+.BackCode .number{
+    color: #ffd50000;
+    font-size: 300px;
+
+}
+

@@ -1,0 +1,36 @@
+.Projects{
+    margin-top: 370px;
+    margin-bottom: 160px;
+    padding-left: 180px;
+}
+
+.Projects .title{
+    width: 650px;
+    border-bottom: 3px solid;
+}
+
+.Projects .dot-outer{
+    position: absolute;
+    margin-left: -193px;
+    margin-top: 9px;
+    width: 30px;
+    height: 30px;
+}
+
+.Projects .dot-inner{
+    position: absolute;
+
+    margin-left: -183px;
+    margin-top: 19px;
+    width: 10px;
+    height: 10px;
+}
+
+.Projects .line-left{
+    position: absolute;
+
+    margin-left: -160px;
+    margin-top: 23px;
+    width: 150px;
+    height: 2px;
+}
