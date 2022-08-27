@@ -76,7 +76,7 @@ body{
 }
 
 .navbar #eye path{
-    ${props => props.theme.transition}
+    
     fill: ${props => props.theme.lineColor};
 }
 
