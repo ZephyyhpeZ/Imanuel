@@ -6,7 +6,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import FloatingButton from './components/floatingButton';
 import { ReactComponent as Barcode} from './assets/barcode.svg';
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import styled, {ThemeProvider} from "styled-components"
 import {lightTheme, darkTheme, GlobalStyle} from "./components/theme.js";
 
