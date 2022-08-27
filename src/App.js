@@ -15,7 +15,9 @@ import {lightTheme, darkTheme, GlobalStyle} from "./components/theme.js";
 const StyledApp = styled.div``;
 
 function App() {
- 
+  useEffect(() => {
+    document.title = "Imanuel"
+  }, [])
 
   const [theme, setTheme] = useState("light");
 
