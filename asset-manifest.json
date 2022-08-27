@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Imanuel/static/css/main.341aa632.css",
+    "main.js": "/Imanuel/static/js/main.c95d7205.js",
+    "static/js/787.6eb7d0e8.chunk.js": "/Imanuel/static/js/787.6eb7d0e8.chunk.js",
+    "static/media/img.png": "/Imanuel/static/media/img.bcb340459727c87982c9.png",
+    "static/media/ME.png": "/Imanuel/static/media/ME.d91991b0f003e30ff070.png",
+    "static/media/barcode.svg": "/Imanuel/static/media/barcode.fb91025d012a63542fe506f3c4a8b1ab.svg",
+    "static/media/code.svg": "/Imanuel/static/media/code.1d985ecec11b7c22034b9db32f005ad3.svg",
+    "static/media/eye.svg": "/Imanuel/static/media/eye.a9d5371d58a8d2ddf52d3c60edee1d3e.svg",
+    "static/media/reload.svg": "/Imanuel/static/media/reload.c976dbd74c87d8999356f2afa26543d3.svg",
+    "static/media/Logo.svg": "/Imanuel/static/media/Logo.3ca2e4f4bc33c9fb1d87d9cb196643f2.svg",
+    "index.html": "/Imanuel/index.html",
+    "static/media/thisSideUp.svg": "/Imanuel/static/media/thisSideUp.5b1f4b44aa38dd8eee37296e1e4a79a4.svg",
+    "static/media/nightMode.svg": "/Imanuel/static/media/nightMode.de780bc850b92b1505023040402e1d1a.svg",
+    "main.341aa632.css.map": "/Imanuel/static/css/main.341aa632.css.map",
+    "main.c95d7205.js.map": "/Imanuel/static/js/main.c95d7205.js.map",
+    "787.6eb7d0e8.chunk.js.map": "/Imanuel/static/js/787.6eb7d0e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.341aa632.css",
+    "static/js/main.c95d7205.js"
+  ]
+}
