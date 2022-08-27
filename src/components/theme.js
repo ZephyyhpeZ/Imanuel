@@ -24,7 +24,7 @@ export const darkTheme = {
     backcodeColor: "2px #428d3543",
     lineColor: "#4E9F3D",
     projectLineColor: "262728",
-    transition: "transition-duration: 0.3s; transition-timing-function: ease;"
+    transition: "transition-duration: 0.3s; transition-timing-function: ease-in-out;"
     
 };
 
@@ -32,7 +32,7 @@ export const darkTheme = {
 export const GlobalStyle = createGlobalStyle`
 
 body{
-    
+   
     background-color: ${props => props.theme.bodyColor};
     color: ${props => props.theme.textColor};
 }
@@ -66,16 +66,17 @@ body{
 }
 
 .navbar .triangle{
-
+    ${props => props.theme.transition}
     stroke: ${props => props.theme.lineColor};
 }
 
 .navbar .i{
-
+    ${props => props.theme.transition}
     fill: ${props => props.theme.lineColor};
 }
 
 .navbar #eye path{
+    ${props => props.theme.transition}
     fill: ${props => props.theme.lineColor};
 }
 
@@ -83,7 +84,6 @@ body{
 
     fill: ${props => props.theme.bodyColor};
 }
-
 //FLOATING BUTTON
 
 .FloatingButton .small-line{
@@ -99,7 +99,7 @@ body{
 //BACKCODE
 
 .BackCode .number{
-    ${props => props.theme.transition}
+    
     -webkit-text-stroke: ${props => props.theme.backcodeColor};
 }
 
@@ -117,7 +117,7 @@ body{
 }
 
 .About .dot-outer{
-    ${props => props.theme.transition}
+
     background-color: ${props => props.theme.bodyColor};
 }
 

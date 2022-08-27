@@ -16,7 +16,6 @@
 
 .About .dot-outer{
     position: absolute;
-    background-color: #FFD600;
     margin-left: -193px;
     margin-top: 31px;
     width: 30px;
@@ -25,7 +24,6 @@
 
 .About .dot-inner{
     position: absolute;
-    background-color: #262728;
     margin-left: -183px;
     margin-top: 41px;
     width: 10px;
