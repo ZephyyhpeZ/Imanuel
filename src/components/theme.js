@@ -132,7 +132,7 @@ body{
 }
 
 .Projects .dot-outer{
-    ${props => props.theme.transition}
+    
     background-color: ${props => props.theme.bodyColor};
 }
 
