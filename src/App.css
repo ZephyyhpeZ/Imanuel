@@ -1,18 +1,50 @@
 
 .App .content{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 0px auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    max-width: 1100px;
 }
 
 .App .barcode{
     position: fixed;
     margin-right: 0;
-    margin-left: 88vmax;
-    margin-top: 30vmax;
+    padding-left: 88vmax;
+    padding-top: 40vmax;
+
     
 }
 
-.App #myCanvas{
-    position: absolute;
+.App .barcode svg{
+    width: 8vw;
+    height: 8vw;
+
+    
 }
+
+
+@media screen and (min-width: 1682px) {
+    .App .barcode svg{
+        width: 100px;
+        height: 100px;
+         
+     }
+
+}
+
+@media screen and (max-width: 766px) {
+    .App .barcode{
+        display: none;
+         
+    }
+
+    .App .content{
+
+        padding-left: 10vw;
+        padding-right: 10vw;
+
+    }
+
+}
+
 

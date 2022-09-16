@@ -1,23 +1,68 @@
 .Introduction{
-    margin-left: 70px;
-    margin-top: 160px;
-    margin-bottom: 160px;
+    margin: auto;
+    padding-left: 70px;
+    padding-top: 20%;
+    padding-bottom: 160px;
     transition-timing-function: ease-in-out; 
     transition-duration: 0.3s;
     
 }
 
 .Introduction h1{
-    font-size: 100px;
-    margin: 0;
+    font-size: 6vw;
+    margin: auto;
     
 }
 
 .no-bold{
-   font-weight: normal;
+   font-weight: 400;
    
 }
 
 .Introduction h2{
     margin-left: 5px;
+}
+
+
+@media screen and (min-width: 1682px) {
+    .Introduction{
+ 
+        padding-top: 15vw;
+  
+        
+    }
+
+    .Introduction h1{
+        font-size: 88px;
+         
+     }
+
+
+    
+
+}
+
+@media screen and (max-width: 766px) {
+    .Introduction{
+        margin: auto;
+        padding-left: 5vw;
+        padding-top: 20%;
+        padding-bottom: 160px;
+        
+    }
+    
+    .Introduction h1{
+        font-size: 6vw;
+        margin: auto;
+        
+    }
+    
+    .no-bold{
+       font-weight: 400;
+       
+    }
+    
+    .Introduction h2{
+        margin-left: 5px;
+    }
 }

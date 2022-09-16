@@ -1,15 +1,30 @@
 .BackCode{
     position: absolute;
     z-index: -1;
-    color: #DCE4EA;
-    margin-left: 300px;
+    margin-left: 18vw;
     transition-timing-function: ease-in-out; 
     transition-duration: 0.3s;
 }
 
 .BackCode .number{
     color: #ffd50000;
-    font-size: 300px;
+    font-size: 20vw;
 
 }
 
+
+@media screen and (min-width: 1682px) {
+    .BackCode{
+        margin-left: 270px;
+
+    }
+    
+
+    .BackCode .number {
+       font-size: 300px;
+    }
+}
+
+@media screen and (min-width: 765px) {
+   
+}

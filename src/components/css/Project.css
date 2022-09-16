@@ -4,15 +4,15 @@
 
 .Project .img{
     border-radius: 32px;
-    height: 350px;
-    width: 500px;
+    height: 23.5vw;
+    width: 33.5vw;
     background-color: rgba(162, 162, 162, 0.319);
 }
 
 .Project img{
     border-radius: 32px;
-    height: 350px;
-    width: 500px;
+    height: 23.5vw;
+    width: 33.5vw;
 }
 
 
@@ -29,18 +29,54 @@
     width: max-content;
     background-color: #FFD600;
     box-shadow: 0px 2px 2px 0px #00000040;
-    border: 3px solid #262728;
-    padding: 5px;
+    
+    padding: 5px 10px 5px 10px;
+
 
 }
 
 
 .Project .box .textbox{
-
+    font-weight: 600;
     border-radius: 2px;
-    width: 350px;
+    width: 23.5vw;
+    font-size: 12px;
     background-color: #FFD600;
     box-shadow: 0px 2px 2px 0px #00000040;
-    border: 3px solid #262728;
+   
     padding: 15px;
+}
+
+
+@media screen and (min-width: 1682px) {
+    .Project .img{
+        height: 350px;
+        width: 500px;
+    }
+    
+    .Project img{
+        height: 350px;
+        width: 500px;
+
+    }
+
+    .Project .box .title-text{
+
+        border-radius: 2px;
+        height: max-content;
+        width: max-content;
+        background-color: #FFD600;
+        box-shadow: 0px 2px 2px 0px #00000040;
+        border: 3px solid #262728;
+        padding: 5px;
+    
+    }
+    
+    
+    .Project .box .textbox{
+
+        width: 350px;
+   
+
+    }
 }

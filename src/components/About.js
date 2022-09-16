@@ -18,9 +18,7 @@ function About() {
             >
             <BackCode number="0001" margin="-200px 0px 0px -110px"></BackCode>
             </div>
-            <div className="dot-outer">
-                1
-            </div>
+            <div className="dot-outer">1</div>
 
             
             <div
@@ -44,12 +42,11 @@ function About() {
                     <p>
                     Hi! As you already know from the introduction section of my website, my name is Imanuel and I'm a 5th semester student in Kalbis Institute majoring in Informatics. 
                     I have always interested in software and game development whether it's on the programming side or the designing side. 
-                    
                     </p>
 
                     <p>
                     Recently I have been dabbling in Artificial Intelligence and made a genetic algorithms program using python. 
-                    The next topic that intrest me is about neural network but I know that it'll be a hard topic to understand.
+                    The next topic that interest me is about neural network but I know that it'll be a hard topic to understand.
                     </p>
                 </div>
                 </div>

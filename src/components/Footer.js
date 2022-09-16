@@ -5,8 +5,8 @@ import './css/Footer.css';
 
 function Footer() {
     return (  
-        <div>
-
+        <div className='Footer'>
+            <h1>Made by Imanuel</h1>
         </div>
 
     );

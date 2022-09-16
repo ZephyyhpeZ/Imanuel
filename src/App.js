@@ -4,7 +4,7 @@ import Line from './components/line';
 import Introduction from './components/Introduction';
 import About from './components/About';
 import Projects from './components/Projects';
-import FloatingButton from './components/floatingButton';
+import Footer from './components/Footer';
 import { ReactComponent as Barcode} from './assets/barcode.svg';
 import {useState, useEffect} from "react";
 import styled, {ThemeProvider} from "styled-components"
@@ -29,10 +29,9 @@ function App() {
     <ThemeProvider theme = {theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyle/>
       <StyledApp className="App">
-        <canvas id='myCanvas'></canvas>
-        <Navbar/>
+        <Navbar setTheme={toggleTheme} className="margin" />
         <div className="barcode"><Barcode/></div>
-        <FloatingButton setTheme={toggleTheme}/>
+        
         
         <div className="content">
 
@@ -43,6 +42,8 @@ function App() {
         <About/>
         
         <Projects/>
+
+        <Footer/>
 
         </div>
           

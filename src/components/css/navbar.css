@@ -1,6 +1,6 @@
 .navbar{
     z-index: 10;
-    width: 100vmax;
+    width: 100vw;
     height: 60px;
     overflow: hidden;
     position: fixed;
@@ -22,8 +22,8 @@
 }
 
 .navbar .padding{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 13vw;
+    padding-right: 250px;
 }
 
 .navbar-container-left .triangle{
@@ -49,6 +49,32 @@
 
 }
 
+.navbar .nightMode{
+    width: 150px;
+    height: 60px;
+    margin-right: -400px;
+    float: right;
+    transition-timing-function: ease-in-out;
+}
+
+.navbar .nightMode .innerNightMode{
+    width: 90%;
+    height: 60px;
+    float: right;
+    
+}
+
+.navbar .nightMode:hover{
+    transform: translate(-70px, 0px);
+}
+
+.navbar .nightMode .innerNightMode .margin{
+    padding: 2px 2px 2px 56px;
+    
+
+}
+
+
 @keyframes blink{
 
     10% {
@@ -63,4 +89,84 @@
 
      
 
+}
+
+@media screen and (min-width: 1982px) {
+    .navbar .padding{
+        padding-left: 26vw;
+    }
+}
+
+
+
+
+@media screen and (max-width: 766px) {
+ 
+    
+    .navbar-container-left{
+        float: left;
+        padding: 10px;
+        
+    }
+    
+    .navbar-container-right{
+        float: right;
+        padding: 10px;
+        
+    
+    }
+    
+    .navbar .padding{
+        padding-left: 5vw;
+        padding-right: 250px;
+    }
+    
+    .navbar-container-left .triangle{
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .navbar-container-left .i{
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .navbar-container-left :hover .triangle{
+        stroke: #D92323;
+    }
+    
+    .navbar-container-left :hover .i{
+        fill: #D92323;
+    }
+    
+    .navbar #eye #lid{
+        animation: blink 7s infinite;
+    
+    }
+    
+    .navbar .nightMode{
+        width: 150px;
+        height: 60px;
+        margin-right: -400px;
+        float: right;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .navbar .nightMode .innerNightMode{
+        width: 90%;
+        height: 60px;
+        float: right;
+        
+    }
+    
+    .navbar .nightMode:hover{
+        transform: translate(-70px, 0px);
+    }
+    
+    .navbar .nightMode .innerNightMode .margin{
+        padding: 2px 2px 2px 56px;
+        
+    
+    }
+  
 }

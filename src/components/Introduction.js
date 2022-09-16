@@ -44,7 +44,7 @@ function Introduction() {
                 data-aos-once="true"
                 data-aos-delay="350" 
                 >
-                <h2 className="no-bold">A software enggineer in the making.</h2>
+                <h2 className="no-bold">Software engineer in the making.</h2>
                 </div>
         </div>
     );

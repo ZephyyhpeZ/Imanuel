@@ -1,7 +1,19 @@
 .line{
-    width: 3px;
-    height: 300vmax;
+    width: 0.2vw;
+    height: 390%;
     top: 0;
     position: absolute;
     background-color: #262728;
+}
+
+@media screen and (min-width: 1682px) {
+    .line{
+        width: 3px;
+
+
+    }
+}
+
+@media screen and (min-width: 765px) {
+   
 }

@@ -11,7 +11,9 @@ export const lightTheme = {
     backcodeColor: "2px #EBC400",
     lineColor: "#262728",
     projectLineColor: "#9B8720",
-    transition: "transition-duration: 0.3s; transition-timing-function: ease;"
+    transition: "transition-duration: 0.3s; transition-timing-function: ease;",
+    otherBodyColor: "#191A19",
+    otherTextColor: "#4E9F3D"
 };
 
 export const darkTheme = {
@@ -23,8 +25,10 @@ export const darkTheme = {
     navbarColor:"#191A19",
     backcodeColor: "2px #428d3543",
     lineColor: "#4E9F3D",
-    projectLineColor: "262728",
-    transition: "transition-duration: 0.3s; transition-timing-function: ease-in-out;"
+    projectLineColor: "#2c5923;",
+    transition: "transition-duration: 0.3s; transition-timing-function: ease-in-out;",
+    otherBodyColor: "#FFD600",
+    otherTextColor: "#262728",
     
 };
 
@@ -84,17 +88,22 @@ body{
 
     fill: ${props => props.theme.bodyColor};
 }
-//FLOATING BUTTON
 
-.FloatingButton .small-line{
+.navbar .nightMode{
     ${props => props.theme.transition}
-    background-color: ${props => props.theme.lineColor};
+    background-color: ${props => props.theme.otherTextColor};
 }
 
-.FloatingButton .margin svg rect{
+.navbar .nightMode .innerNightMode{
     ${props => props.theme.transition}
-    fill: ${props => props.theme.lineColor};
+    background-color: ${props => props.theme.otherBodyColor};
 }
+
+.navbar .nightMode .innerNightMode .margin path{
+    fill: ${props => props.theme.otherTextColor};
+
+}
+
 
 //BACKCODE
 
@@ -118,13 +127,11 @@ body{
 
 .About .dot-outer{
 
-    background-color: ${props => props.theme.bodyColor};
+    background-color: ${props => props.theme.lineColor};
+    color: ${props => props.theme.bodyColor};
 }
 
-.About .dot-inner{
-    ${props => props.theme.transition}
-    background-color: ${props => props.theme.lineColor};
-}
+
 
 .Projects .line-left{
     ${props => props.theme.transition}
@@ -133,20 +140,18 @@ body{
 
 .Projects .dot-outer{
     
-    background-color: ${props => props.theme.bodyColor};
+    background-color: ${props => props.theme.lineColor};
+    color: ${props => props.theme.bodyColor};
 }
 
-.Projects .dot-inner{
-    ${props => props.theme.transition}
-    background-color: ${props => props.theme.lineColor};
-}
+
 
 //project
 
 .Project .box .title-text{
     ${props => props.theme.transition}
     background-color: ${props => props.theme.bodyColor};
-    border: 3px solid ${props => props.theme.projectLineColor};;
+    border: 3px solid ${props => props.theme.projectLineColor};
 }
 
 
@@ -162,17 +167,7 @@ body{
     fill: ${props => props.theme.lineColor};
 }
 
-.FloatingButton g path{
-    ${props => props.theme.transition}
-    fill:${props => props.theme.lineColor};
-}
 
-
-.FloatingButton g rect{
-    ${props => props.theme.transition}
-    stroke: ${props => props.theme.lineColor};
-    
-}
 
 `
     
