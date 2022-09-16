@@ -44,7 +44,7 @@ function Introduction() {
                 data-aos-once="true"
                 data-aos-delay="350" 
                 >
-                <h2 className="no-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique.</h2>
+                <h2 className="no-bold">A software enggineer in the making.</h2>
                 </div>
         </div>
     );

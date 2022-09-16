@@ -29,6 +29,7 @@ function App() {
     <ThemeProvider theme = {theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyle/>
       <StyledApp className="App">
+        <canvas id='myCanvas'></canvas>
         <Navbar/>
         <div className="barcode"><Barcode/></div>
         <FloatingButton setTheme={toggleTheme}/>

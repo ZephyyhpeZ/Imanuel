@@ -15,16 +15,13 @@
     margin-top: 9px;
     width: 30px;
     height: 30px;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
 }
 
-.Projects .dot-inner{
-    position: absolute;
 
-    margin-left: -183px;
-    margin-top: 19px;
-    width: 10px;
-    height: 10px;
-}
 
 .Projects .line-left{
     position: absolute;
@@ -32,5 +29,5 @@
     margin-left: -160px;
     margin-top: 23px;
     width: 150px;
-    height: 2px;
+    height: 3px;
 }

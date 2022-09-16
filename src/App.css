@@ -12,3 +12,7 @@
     
 }
 
+.App #myCanvas{
+    position: absolute;
+}
+
